@@ -1,6 +1,7 @@
 ---
 title: My Fourth Article
-author: Kevin Powell
+author: Samuel Jackson
+authorImage: "../assets/img/team/3.png"
 date: 2021-06-01
 tags: ["post", "featured"]
 image: "../assets/img/article-4.jpg"

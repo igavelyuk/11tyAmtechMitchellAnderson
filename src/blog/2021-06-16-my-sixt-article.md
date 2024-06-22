@@ -1,6 +1,7 @@
 ---
 title: My Fifth Article
-author: Kevin Powell
+author: Benjamin Franklin
+authorImage: "../assets/img/team/5.png"
 date: 2021-06-15
 tags: ["post", "featured"]
 image: ../assets/img/article-5.jpg

@@ -1,7 +1,7 @@
 ---
 title: "My Second Article"
 author: "Kevin Powell"
-authorImage: "../assets/img/test.png"
+authorImage: "../assets/img/team/1.png"
 date: "2021-05-15"
 tags: ["post", "featured"]
 image: "../assets/img/article-2.jpg"

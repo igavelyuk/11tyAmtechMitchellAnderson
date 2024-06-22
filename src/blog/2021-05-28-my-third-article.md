@@ -1,6 +1,7 @@
 ---
 title: My Third Article
 author: Kevin Powell
+authorImage: "../assets/img/team/2.png"
 date: 2021-05-28
 tags: ["post", "featured"]
 image: "../assets/img/article-3.jpg"
