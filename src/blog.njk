@@ -2,11 +2,3 @@
 title: Blog page
 layout: postblog.njk
 ---
-
-{%- for post in collections.post -%}
-<li>
-<article class="snippet">
-  <h3 class="snippet__titles"> {{ post.data.title }} </h3>
-</article>
-</li>
-{%- endfor -%}
