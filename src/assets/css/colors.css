@@ -1,0 +1,20 @@
+a:-webkit-any-link {
+  color: #0ff;
+}
+
+a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #0ff;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}

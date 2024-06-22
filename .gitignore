@@ -2,6 +2,9 @@
 node_modules/
 jspm_packages/
 
+# 11ty build
+_*
+
 # Thumbnails
 ._*
 
