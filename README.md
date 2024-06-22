@@ -35,7 +35,7 @@ with using
 - compileStyles -> Compile SASS
   - (package: `npm install sass npm-run-all --save-dev` )
 - copyCss -> autoprefix and minify css put to /dist/.../tmp/css
-  - (package: )
+  - (package: `npm install clean-css`)
 - cacheBust -> cache bust
   - (package: )
 - oneCss -> make from all min.css files makes one all-min.css
