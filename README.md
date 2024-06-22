@@ -12,3 +12,7 @@
 `npx @11ty/eleventy`
 #### Serve
 `npx @11ty/eleventy --serve`
+
+
+#### Packages
+npm install --global del-cli
