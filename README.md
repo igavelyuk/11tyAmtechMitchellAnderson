@@ -33,7 +33,7 @@ with using
 - copyHTML -> Copy HTML from src to dist folder
   - (package: )
 - compileStyles -> Compile SASS
-  - (package: )
+  - (package: `npm install sass npm-run-all --save-dev` )
 - copyCss -> autoprefix and minify css put to /dist/.../tmp/css
   - (package: )
 - cacheBust -> cache bust
