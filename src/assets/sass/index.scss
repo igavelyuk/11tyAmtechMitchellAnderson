@@ -12,34 +12,34 @@
   color: #fff;
   position: relative;
 }
-.container{
-  // @include for-phone-only {
-  //   margin-left: 400px;
-  // 	height: 600px;
-  // 	width: 400px;
-  // }
-  // @include for-tablet-portrait-up {
-  //   margin-left: 400px;
-  // 	height: 600px;
-  // 	width: 400px;
-  // }
-  // @include for-tablet-landscape-up {
-  //   margin-left: 400px;
-  // 	height: 600px;
-  // 	width: 400px;
-  // }
-  // @include for-desktop-up {
-  //   margin-left: 400px;
-  // 	height: 600px;
-  // 	width: 400px;
-  // }
-  // @include for-big-desktop-up {
-  //   margin-left: 400px;
-  // 	height: 600px;
-  // 	width: 400px;
-  // }
+@mixin container{
+  @include for-phone-only {
+    margin-left: 400px;
+  	height: 600px;
+  	width: 400px;
+  }
+  @include for-tablet-portrait-up {
+    margin-left: 400px;
+  	height: 600px;
+  	width: 400px;
+  }
+  @include for-tablet-landscape-up {
+    margin-left: 400px;
+  	height: 600px;
+  	width: 400px;
+  }
+  @include for-desktop-up {
+    margin-left: 400px;
+  	height: 600px;
+  	width: 400px;
+  }
+  @include for-big-desktop-up {
+    margin-left: 400px;
+  	height: 600px;
+  	width: 400px;
+  }
 }
-.insertion{
+@mixin insertion{
   position: relative;
   @include for-phone-only {
     top:calc(50vh - 90px);
@@ -91,7 +91,7 @@ summary{
 
   cursor: pointer;
 }
-.header-stick{
+@mixin header-stick{
   @include for-phone-only {
     top:0px;
     left:calc(50vw - 100px);
@@ -188,13 +188,13 @@ summary{
 //   100% {background-color: RGB(10, 150, 100);}
 // }
 
-.nav {
+@mixin nav {
   &__wrapper {
-    @include for-phone-only {
-      top:120px;
-      left:0px;
-      height: 100vh;
-    }
+    // @include for-phone-only {
+    //   top:120px;
+    //   left:0px;
+    //   height: 100vh;
+    // }
     @include for-tablet-portrait-up {
       top:0px;
       left:calc(50vh - 300px);
@@ -317,7 +317,7 @@ summary{
     }
   }
 }
-.roundimg{
+@mixin roundimg{
   border:7px solid #800404;
   border-radius: 50%;
   left:50%;
