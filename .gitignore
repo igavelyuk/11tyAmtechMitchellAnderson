@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Thumbnails
+._*
+
+# rollup.js default build output
+dist/
+
+# Gatsby files
+.cache/
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# Temporary folders
+tmp/
+temp/
